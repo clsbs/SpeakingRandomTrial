@@ -1,0 +1,189 @@
+  $("[id^='pane-']").hide(); //Hide all which has id pane-
+  // $("#pane-5").show(); //Library 보여주기
+  $("#pane-2").show(); //Show specific tab content Stella 보여주기
+
+
+
+function function1301c() {
+  let chosenNumbers = Math.floor(Math.random() * 2) + 1;
+  console.log(chosenNumbers);
+  switch (chosenNumbers) {
+    case 1:
+      function1301a();
+      break;
+    case 2:
+      function1301b();
+      break;
+  }
+}
+
+function function1811() {
+  let chosenNumbers = Math.floor(Math.random() * 9) + 1;
+  console.log(chosenNumbers);
+  switch (chosenNumbers) {
+    case 1:
+      function1809();
+      break;
+    case 2:
+      function1808();
+      break;
+    case 3:
+      function1807();
+      break;
+    case 4:
+      function1806f();
+      break;
+    case 5:
+      function1805();
+      break;
+    case 6:
+      function1804c();
+      break;
+    case 7:
+      function1803g();
+      break;
+    case 8:
+      function1802f();
+      break;
+    case 9:
+      function1802a();
+      break;
+    case 10:
+      function1810();
+      break;
+  }
+}
+
+is-warning is-light
+is-success is-light
+is-white
+
+  <button class="button sub is-danger is-light" onclick="function1717(); putCardNumber('')" >
+    관계사 All</button>
+
+
+.toLowerCase()
+eWord.replace('who', 'that')
+
+
+
+noun1personE
+noun2objectE
+noun3animalE
+noun4placeE
+noun5conceptE
+
+VERB_COMPLETE_INTRANSITIVE_VERB_3E
+VERB_COMPLETE_INTRANSITIVE_VERB_E
+VERB_COMPLETE_INTRANSITIVE_VERB_K
+VERB_COMPLETE_INTRANSITIVE_ADJECTIVE_VERB_K
+VERB_COMPLETE_INTRANSITIVE_CONCESSIVE_VERB_K
+
+//명사 단복수 
+function function1701a() {
+  let chosenNumbers = Math.floor(Math.random() * 2) + 1;
+  console.log(chosenNumbers);
+  let valueNumber = Math.floor(Math.random() * noun3animalK.length);
+  let kWord;
+  let eWord;
+  switch (chosenNumbers) {
+    case 1:
+      kWord = "하나의 " + noun3animalK[valueNumber] + " ( " + noun3animalE[valueNumber] + " )";
+      eWord = noun3animalE[valueNumber];
+      if (eWord[0] == 'a' || eWord[0] == 'e' || eWord[0] == 'i' || eWord[0] == 'o' || eWord[0] == 'u') {
+        eWord = "an " + eWord;
+      } else {
+        eWord = "a " + eWord;
+      }
+      document.getElementById("divRandom").innerText = kWord;
+      document.getElementById("divRandom2").innerText = eWord;
+      break;
+    case 2:
+      kWord = noun3animalK[valueNumber] + "들 ( " + noun3animalE[valueNumber] + " )";
+      eWord = noun3animalE[valueNumber];
+      if (eWord.endsWith('s') || eWord.endsWith('ss') || eWord.endsWith('sh') || eWord.endsWith('ch') || eWord.endsWith('x') || eWord.endsWith('o')) {
+        eWord = eWord + "es";
+      } else if (eWord.endsWith('ay') || eWord.endsWith('ey') || eWord.endsWith('iy') || eWord.endsWith('oy') || eWord.endsWith('uy')) {
+        eWord = eWord + "s";
+      } else if (eWord.endsWith('y')) {
+        eWord = eWord.slice(0, -1) + "ies";
+      } else if (eWord.endsWith('fe')) {
+        eWord = eWord.slice(0, -2) + "ves";
+      } else if (eWord.endsWith('f')) {
+        eWord = eWord.slice(0, -1) + "ves";
+      } else {
+        eWord = eWord + "s";
+      }
+      document.getElementById("divRandom").innerText = kWord;
+      document.getElementById("divRandom2").innerText = eWord;
+      break;
+  }
+
+}
+
+
+
+
+const VERB_GENERAL_PAST_PARTICIPLE_ALL_E = new Array("loved", "liked", "enjoyed", "begun", "stopped", "opened", "closed", "cooked", "eaten", "wanted", "run", "flown", "called", "made", "given", "gone", "come", "said", "met", "left", "had", "drunk", "jumped", "caught", "needed", "washed", "walked", "stood", "sat", "fallen", "played", "studied", "helped", "touched", "thought", "pulled", "pushed", "drawn", "brought", "sent", "cut", "read", "moved", "asked", "used", "done", "heard", "cried", "swum", "slept");
+const VERB_GENERAL_PAST_ALL_E = new Array("loved", "liked", "enjoyed", "began", "stopped", "opened", "closed", "cooked", "ate", "wanted", "ran", "flew", "called", "made", "gave", "went", "came", "said", "met", "left", "had", "drank", "jumped", "caught", "needed", "washed", "walked", "stood", "sat", "fell", "played", "studied", "helped", "touched", "thought", "pulled", "pushed", "drew", "brought", "sent", "cut", "read", "moved", "asked", "used", "did", "heard", "cried", "swam", "slept");
+const VERB_GENERAL_POSITIVE3_ALL_E = new Array("loves", "likes", "enjoys", "begins", "stops", "opens", "closes", "cooks", "eats", "wants", "runs", "flies", "calls", "makes", "gives", "goes", "comes", "says", "meets", "leaves", "has", "drinks", "jumps", "catches", "needs", "washes", "walks", "stands", "sits", "falls", "plays", "studies", "helps", "touches", "thinks", "pulls", "pushes", "draws", "brings", "sends", "cuts", "reads", "moves", "asks", "uses", "does", "hears", "cries", "swims", "sleeps");
+const VERB_GENERAL_POSITIVE_ALL_E = new Array("love", "like", "enjoy", "begin", "stop", "open", "close", "cook", "eat", "want", "run", "fly", "call", "make", "give", "go", "come", "say", "meet", "leave", "have", "drink", "jump", "catch", "need", "wash", "walk", "stand", "sit", "fall", "play", "study", "help", "touch", "think", "pull", "push", "draw", "bring", "send", "cut", "read", "move", "ask", "use", "do", "hear", "cry", "swim", "sleep");
+const VERB_GENERAL_POSITIVE_ALL = new Array("사랑한다", "좋아한다", "즐긴다", "시작한다", "멈춘다", "연다", "닫는다", "요리한다", "먹는다", "원한다", "달린다", "난다", "전화한다", "만든다", "준다", "간다", "온다", "말한다", "만난다", "떠난다", "가지고 있다", "마신다", "점프한다", "잡는다", "필요하다", "씻는다", "걷는다", "일어선다", "앉는다", "넘어진다", "논다", "공부한다", "돕는다", "만진다", "생각한다", "당긴다", "민다", "그린다", "가져온다", "보낸다", "자른다", "읽는다", "움직인다", "묻는다", "사용한다", "한다", "들린다", "운다", "수영한다", "잔다");
+
+PRONOUN_PERSONAL_SUBJECTIVE_2K
+PRONOUN_PERSONAL_SUBJECTIVE_SMALL_E
+
+주의 점검 필요한 단어들
+
+
+28
+"changed",
+점검되었다
+변경
+
+39
+"cried",	올라졌다
+울려졌다
+
+72 get 받다 > 얻다
+87 hurry 빨리 ~하다 > 서두르다 
+120 return 복귀 > 되돌리다
+
+
+144 thank 말하다 > 고마워하다
+
+
+171 feed 먹다 > 먹이
+189 dig 팔리다 > 파다
+
+
+
+
+VERB_ALL_PRESENT_PARTICIPLE_E
+
+VERB_ALL_PRESENT_PARTICIPLE_K
+
+VERB_ALL_PAST_PARTICIPLE_K
+VERB_ALL_PAST_PARTICIPLE_E
+
+pronounBoxK
+pronounBoxBeE
+
+
+PASSIVE_SENTENCE_PATTERN_K
+PASSIVE_SENTENCE_PATTERN_E
+PASSIVE_SENTENCE_PATTERN_4TH_K
+PASSIVE_SENTENCE_PATTERN_4TH_E
+PASSIVE_SENTENCE_PATTERN_5TH_K
+PASSIVE_SENTENCE_PATTERN_5TH_E
+
+VERB_NOT_PASSIVE_K
+VERB_NOT_PASSIVE_E
+
+PASSIVE_2K
+PASSIVE_SENTENCE_K
+
+
+COMPARATIVE_ORIGINAL_K
+COMPARATIVE_COMPARATIVE_K
+COMPARATIVE_SUPERATIVE_K

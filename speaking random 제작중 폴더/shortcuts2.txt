@@ -1,0 +1,28 @@
+
+const ADJECTIVE_POSITIVE_PEOPLE_E = new Array("fast", "brave", "good", "bad", "loud", "quiet", "smart", "stupid", "kind", "warm", "handsome", "angry", "hungry", "generous", "weak", "strong", "rich", "poor", "young", "old", "calm", "right", "beautiful", "ugly", "happy", "sad", "safe", "dangerous", "cute");
+
+const ADJECTIVE_POSITIVE_PEOPLE = new Array("빠르다", "용감하다", "좋다", "나쁘다", "시끄럽다", "조용하다", "똑똑하다", "멍청하다", "친절하다", "따뜻하다", "잘생겼다", "화난다", "배고프다", "관대하다", "약하다", "강하다", "부유하다", "가난하다", "젊다", "늙었다", "침착하다", "옳다", "아름답다", "못생겼다", "행복하다", "슬프다", "안전하다", "위험하다", "귀엽다");
+
+const ADJECTIVE_POSITIVE_THINGS_E = new Array("big", "small", "fast", "good", "bad", "expensive", "cheap", "thick", "thin", "loud", "quiet", "smart", "stupid", "wet", "dry", "heavy", "light", "hard", "soft", "wide", "weak", "strong", "long", "short", "high", "low", "right", "true", "false", "beautiful", "ugly", "new", "slow", "safe", "dangerous", "cute");
+const ADJECTIVE_POSITIVE_THINGS = new Array("크다", "작다", "빠르다", "좋다", "나쁘다", "비싸다", "싸다", "두껍다", "얇다", "시끄럽다", "조용하다", "똑똑하다", "멍청하다", "젖었다", "말랐다", "무겁다", "가볍다", "딱딱하다", "부드럽다", "넓다", "약하다", "강하다", "길다", "짧다", "높다", "낮다", "옳다", "진실이다", "거짓이다", "아름답다", "못생겼다", "새롭다", "느리다", "안전하다", "위험하다", "귀엽다");
+
+
+ADJECTIVE_COMPARATIVE_POSITIVE_PEOPLE
+ADJECTIVE_SUPERATIVE_POSITIVE_PEOPLE
+
+ADJECTIVE_COMPARATIVE_POSITIVE_THINGS
+ADJECTIVE_SUPERATIVE_POSITIVE_THINGS
+
+ADJECTIVE_VOCA_K
+ADJECTIVE_VOCA_E
+
+
+_K_E
+_E
+
+const ADJECTIVE_VOCA_K = new Array("큰", "작은", "빠른", "용감한", "좋은", "나쁜", "비싼", "싼", "두꺼운", "얇은", "시끄러운", "조용한", "똑똑한", "멍청한", "젖은", "마른", "무거운", "가벼운", "딱딱한", "부드러운", "친절한", "따뜻한", "잘생긴", "화난", "배고픈", "넓은", "관대한", "약한", "강한", "부유한", "가난한", "젊은", "늙은", "긴", "짧은", "높은", "낮은", "침착한", "옳은", "진실한", "거짓의", "아름다운", "못생긴", "새로운", "느린", "행복한", "슬픈", "안전한", "위험한", "귀여운");
+const ADJECTIVE_VOCA_E = new Array("big", "small", "fast", "brave", "good", "bad", "expensive", "cheap", "thick", "thin", "loud", "quiet", "smart", "stupid", "wet", "dry", "heavy", "light", "hard", "soft", "kind", "warm", "handsome", "angry", "hungry", "wide", "generous", "weak", "strong", "rich", "poor", "young", "old", "long", "short", "high", "low", "calm", "right", "true", "false", "beautiful", "ugly", "new", "slow", "happy", "sad", "safe", "dangerous", "cute");
+
+const ADJECTIVE_POSITIVE_THINGS_K = new Array("큰", "작은", "빠른", "좋은", "나쁜", "비싼", "싼", "두꺼운", "얇은", "시끄러운", "조용한", "똑똑한", "멍청한", "젖은", "마른", "무거운", "가벼운", "딱딱한", "부드러운", "넓은", "약한", "강한", "긴", "짧은", "높은", "낮은", "옳은", "참된", "거짓의", "아름다운", "못생긴", "새로운", "느린", "안전한", "위험한", "귀여운");
+
+const ADJECTIVE_POSITIVE_PEOPLE_K = new Array("빠른", "용감한", "좋은", "나쁜", "시끄러운", "조용한", "똑똑한", "멍청한", "친절한", "따뜻한", "잘생긴", "화난", "배고픈", "관대한", "약한", "강한", "부유한", "가난한", "젊은", "늙은", "침착한", "옳은", "아름다운", "못생긴", "행복한", "슬픈", "안전한", "위험한", "귀여운");
